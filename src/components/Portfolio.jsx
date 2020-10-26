@@ -12,7 +12,7 @@ const Portfolio = () => {
                <Row style={{display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '40px'}}>
                    <Col>
                     <Card className='card-style'>
-                        <Card.Img><img src='linkedin.png'/></Card.Img>
+                        <Card.Img className='img-for-card' src='linked.png'></Card.Img>
                         <Card.Body>LINKEDIN CLONE</Card.Body>
                         <Card.Footer style={{display: 'flex', justifyContent: 'space-around', color: '#495058'}}>
                             <a href='#'><FontAwesomeIcon icon={faGithub} style={{color: '#495058'}}/></a>
@@ -22,7 +22,7 @@ const Portfolio = () => {
                    </Col>
                    <Col>
                     <Card className='card-style'>
-                        <Card.Img><img src='amazon.png'/></Card.Img>
+                        <Card.Img className='img-for-card' src='amazon.png'></Card.Img>
                         <Card.Body>AMAZON CRUDS BACKEND</Card.Body>
                         <Card.Footer style={{display: 'flex', justifyContent: 'space-around', color: '#495058'}}>
                             <a href='#'><FontAwesomeIcon icon={faGithub} style={{color: '#495058'}}/></a>
@@ -32,7 +32,7 @@ const Portfolio = () => {
                    </Col>
                    <Col>
                    <Card className='card-style'>
-                        <Card.Img><img src='netflix.png'/></Card.Img>
+                        <Card.Img className='img-for-card' src='netflix.jpg'></Card.Img>
                         <Card.Body>NETFLIX CLONE</Card.Body>
                         <Card.Footer style={{display: 'flex', justifyContent: 'space-around', color: '#495058'}}>
                             <a href='#'><FontAwesomeIcon icon={faGithub} style={{color: '#495058'}}/></a>
