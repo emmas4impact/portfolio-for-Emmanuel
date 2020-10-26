@@ -1,10 +1,55 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
+body {
+  font-family: 'Playfair Display', serif;
+}
+.head {
+  /* background: url('http://ejosue.com/wp-content/uploads/2014/04/thumbnail-1.png'); */
+  background: url('./img/back.png');
+  height: 800px;
+  color: #ffffff;
+  /* background-position: center; */
+  background-size: cover;
+}
+.img-skills img{
+  width: 150px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.small-icon img{
+  width: 90px;
+}
+.img-skills {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+
+}
+.verticalLine {
+  border: 1px solid #fff;
+  height: 100px;
+  width: 1px;
+  margin: 20px auto !important;
+  
+}
+/* .borderPicture {
+  -webkit-box-shadow: 1px 0px 19px 4px #000000; 
+  box-shadow: 1px 0px 19px #000000; 
+} */
+.fontHead {
+  font-size: 400%;
+}
+.card-style {
+  -webkit-box-shadow: 4px 7px 10px 4px rgba(0,0,0,0.5); 
+  box-shadow: 4px 7px 10px 4px rgba(0,0,0,0.5);
+  margin: 30px 0 30px;
+
+}
+.cv {
+  transition: all .2s ease-in-out;
+}
+.cv:hover {
+  transform: scale(1.1);
 }
 
 @media (prefers-reduced-motion: no-preference) {
