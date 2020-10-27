@@ -6,7 +6,7 @@ import {  faLaptopCode } from '@fortawesome/free-solid-svg-icons'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 const Portfolio = () => {
    return (
-       <div style={{background: '#131F55'}}>
+       <div style={{background: '#333333'}}>
            <Container style={{paddingTop: '40px', paddingBottom: '40px'}}>
                <h2 style={{textAlign: 'center', color: '#fff', paddingTop: '30px'}}>My Projects</h2>
                <Row style={{display: 'flex', justifyContent: 'space-between', alignItems: 'center', paddingTop: '40px'}}>
