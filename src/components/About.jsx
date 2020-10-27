@@ -13,7 +13,7 @@ const About = () => {
             <Container>
                 <Row>
                     <Col  style={{padding: '30px'}}>
-                        <h1 style={{textAlign: 'center'}}>About</h1>
+                        <h1 style={{textAlign: 'center', paddingTop: '30px'}}>About</h1>
                     </Col>
                 </Row>
                 <Row style={{display: 'flex', justifyContent: 'space-between', alignItems: 'center'}}>

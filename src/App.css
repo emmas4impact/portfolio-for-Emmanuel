@@ -32,10 +32,7 @@ body {
   margin: 20px auto !important;
   
 }
-/* .borderPicture {
-  -webkit-box-shadow: 1px 0px 19px 4px #000000; 
-  box-shadow: 1px 0px 19px #000000; 
-} */
+
 .fontHead {
   font-size: 400%;
 }
@@ -43,7 +40,14 @@ body {
   -webkit-box-shadow: 4px 7px 10px 4px rgba(0,0,0,0.5); 
   box-shadow: 4px 7px 10px 4px rgba(0,0,0,0.5);
   margin: 30px 0 30px;
+  object-fit: cover;
 
+}
+.tack {
+  width: 50px;
+  position: absolute;
+  top: 0;
+  left: -15px;
 }
 .cv {
   transition: all .2s ease-in-out;
@@ -52,7 +56,8 @@ body {
   transform: scale(1.1);
 }
 .img-for-card {
-  height : 200px
+  height : 200px;
+  position: relative;
 }
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
