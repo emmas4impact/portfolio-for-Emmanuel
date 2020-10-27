@@ -10,14 +10,17 @@ const Footer = () => {
         <div style={{background: '#000', color: '#fff'}}>
             <Container style={{padding:'40px'}}>
                 <Row style={{display: 'flex', justifyContent: 'space-between', alignItems: 'center'}}>
-                    <Col lg={6} md={6} sm={12} >
+                    <Col lg={4} md={4} sm={12} >
                        <small>© 2020 Emmanuel Adedeji.</small>
                     </Col>
-                    <Col lg={6} md={6} sm={12}  style={{display: 'flex', justifyContent: 'space-between', alignItems: 'center'}}>
-                        <div><FontAwesomeIcon icon={faPhoneSquare} />  (358) 449-767777</div>
-                        <div><FontAwesomeIcon icon={faEnvelope} />  emmans4destiny@gmail.com</div>
-                        <a href='https://github.com/emmas4impact'><FontAwesomeIcon icon={faGithub} style={{color: '#fff'}}/></a>
-                        <a href='https://www.linkedin.com/in/emmas4impact/'><FontAwesomeIcon icon={faLinkedin}  style={{color: '#fff'}} /></a>
+                    <Col lg={8} md={8} sm={12} style={{textAlign:'center'}}>
+                        <Row  style={{display: 'flex', justifyContent: 'space-between', alignItems: 'center'}}> 
+                        <Col lg={4} md={4} sm={12}><FontAwesomeIcon icon={faPhoneSquare} /> <a style={{color: '#fff'}} className='ml-2'> (358) 449-767777</a></Col>
+                        <Col lg={4} md={4} sm={12} style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}><FontAwesomeIcon icon={faEnvelope}/> <a style={{color: '#fff'}} className='ml-2'>emmans4destiny@gmail.com</a></Col>
+                        <Col lg={4} md={4} sm={12}><a href='https://github.com/emmas4impact'><FontAwesomeIcon icon={faGithub} style={{color: '#fff', marginRight: '20px'}}/></a>
+                        <a href='https://www.linkedin.com/in/emmas4impact/'><FontAwesomeIcon icon={faLinkedin}  style={{color: '#fff'}} /></a></Col>
+                        </Row>
+                        
                     </Col>
                 </Row>
             </Container>
