@@ -1,6 +1,5 @@
-import React, { Component, useEffect } from 'react';
+import React, {  useEffect } from 'react';
 import { Container, Col, Row } from 'react-bootstrap';
-import ReactDOM from 'react-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAngleDown } from '@fortawesome/free-solid-svg-icons'
 import Typist from 'react-typist';
